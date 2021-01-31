@@ -1,3 +1,3 @@
 print('Hello, world')
 variable = input()
-print(variable)
+print(variable + variable)
