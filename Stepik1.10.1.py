@@ -1,5 +1,5 @@
 #input variable obout time to slee
-#no decision
+#done
 litt = int(input())
 more = int(input())
 reco = int(input())
