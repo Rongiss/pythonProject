@@ -1,12 +1,12 @@
 #input variable obout time to slee
 #no decision
-recomended = int(input())
-a_lot_of_time = int(input())
-little_time = int(input())
+litt = int(input())
+more = int(input())
+reco = int(input())
 
-if recomended > a_lot_of_time:
+if reco > more:
     print("Пересып")
-elif recomended < little_time:
+elif reco < litt:
     print("Недосып")
-elif recomended < a_lot_of_time and recomended > little_time:
-    print("Норм")
+elif reco >= litt and reco <= more:
+    print("Это нормально")
